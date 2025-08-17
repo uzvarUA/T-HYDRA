@@ -17,9 +17,15 @@
 * Automated script ( Coming Soon ... )
 
 ## INSTALLTION :
-* apt update -y
-* apt upgrade -y
-* git clone https://github.com/isuruwa/T-HYDRA
+* ```
+  apt update -y && apt upgrade -y
+  ```
+* ```
+  pkg install git make proot -y
+  ```
+* ```
+  git clone https://github.com/isuruwa/T-HYDRA
+  ```
 * cd T-HYDRA/core
 * chmod +x setup
 * ./setup
